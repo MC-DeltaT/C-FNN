@@ -1,0 +1,1 @@
+cl /permissive- /Wall /O2 /Oi /favor:INTEL64 /arch:AVX2 /fp:precise /Qspectre- /GS- /DNDEBUG *.c /link /out:neural_network.exe
