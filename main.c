@@ -81,8 +81,8 @@ int main(void)
 
     srand(time(NULL));
 
-    size_t const layer_sizes[NUM_LAYERS] = {MNIST_INPUT_SIZE, 30, MNIST_OUTPUT_SIZE};
-    double const learning_rate = 1.0;
+    size_t const layer_sizes[NUM_LAYERS] = {MNIST_INPUT_SIZE, 50, MNIST_OUTPUT_SIZE};
+    double const learning_rate = 0.6;
 
     sffbp_network network;
     network.layers = malloc(NUM_LAYERS * sizeof(sffbp_layer));
